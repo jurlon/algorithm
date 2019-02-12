@@ -51,5 +51,6 @@ public class MergeSort extends SortHelper {
     public static void main(String[] args) {
         int[] arr = generateRandomArray(1000,1,1000);
         instance.testSort("归并排序",arr);
+        printArray(arr);
     }
 }
